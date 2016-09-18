@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "./node_modules/.bin/eslint ./lib",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "storybook start -p 7007"
   },
   "repository": {
     "type": "git",
@@ -29,12 +29,14 @@
   "dependencies": {
     "@kadira/storybook": "^2.14.0",
     "react": "^15.3.1",
+    "react-native": "^0.33.0",
     "react-native-material-design-styles": "git+https://github.com/react-native-material-design/react-native-material-design-styles.git",
     "react-native-vector-icons": "^2.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.6",
     "eslint": "^1.6.0",
-    "eslint-plugin-react": "^3.5.1"
+    "eslint-plugin-react": "^3.5.1",
+    "@kadira/react-native-storybook": "^2.0.0"
   }
 }
